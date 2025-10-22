@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1761061256867,
+    "name": "gokul",
+    "regno": "123",
+    "marks": {
+      "Maths": 90,
+      "Science": 95,
+      "English": 85
+    }
+  },
+  {
+    "id": 1761061287042,
+    "name": "gokul",
+    "regno": "731622205016",
+    "marks": {
+      "Maths": 90,
+      "Science": 70,
+      "English": 60
+    }
+  },
+  {
+    "id": 1761061810159,
+    "name": "hari",
+    "regno": "124",
+    "marks": {
+      "Maths": 50,
+      "Science": 90,
+      "English": 95
+    }
+  },
+  {
+    "id": 1761062020402,
+    "name": "bharani ",
+    "regno": "7",
+    "marks": {
+      "Maths": 75,
+      "Science": 88,
+      "English": 97
+    }
+  },
+  {
+    "id": 1761065537667,
+    "name": "bharath",
+    "regno": "8",
+    "marks": {
+      "Maths": 76,
+      "Science": 68,
+      "English": 81
+    }
+  },
+  {
+    "id": 1761105771444,
+    "name": "bala",
+    "regno": "6",
+    "marks": {
+      "Maths": 55,
+      "Science": 65,
+      "English": 75
+    }
+  },
+  {
+    "id": 1761105802187,
+    "name": "arul",
+    "regno": "2",
+    "marks": {
+      "Maths": 86,
+      "Science": 75,
+      "English": 93
+    }
+  },
+  {
+    "id": 1761105850182,
+    "name": "santhosh",
+    "regno": "49",
+    "marks": {
+      "Maths": 44,
+      "Science": 86,
+      "English": 94
+    }
+  },
+  {
+    "id": 1761105900048,
+    "name": "pranesh",
+    "regno": "61",
+    "marks": {
+      "Maths": 55,
+      "Science": 65,
+      "English": 75
+    }
+  },
+  {
+    "id": 1761105934556,
+    "name": "jana",
+    "regno": "21",
+    "marks": {
+      "Maths": 99,
+      "Science": 44,
+      "English": 86
+    }
+  }
+]
