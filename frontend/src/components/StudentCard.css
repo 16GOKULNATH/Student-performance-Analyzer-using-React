@@ -1,0 +1,119 @@
+/* ---------- STUDENT CARD ---------- */
+.student-card {
+  background: #f9f9f9; /* light grey/soft white */
+  border-radius: 12px;
+  padding: 20px 25px;
+  margin: 15px auto; /* center horizontally */
+  max-width: 700px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 128, 255, 0.15);
+  background: #eef6ff; /* light blue hover for better visibility */
+}
+
+/* ---------- STUDENT DETAILS ---------- */
+.student-details h3 {
+  color: #1f3a93; 
+  margin-bottom: 6px;
+  font-size: 1.3rem;
+}
+
+.student-details p {
+  color: #555;
+  margin: 4px 0;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* ---------- INPUTS ---------- */
+input {
+  width: 100px; 
+  padding: 8px 10px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff9f9; /* soft pastel input background */
+  font-size: 0.95rem;
+}
+
+/* ---------- BUTTONS ---------- */
+.edit-btn, .delete-btn, .sms-btn {
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+/* Edit Button */
+.edit-btn {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: linear-gradient(to right, #5ea1ff, #3b82f6);
+  transform: scale(1.08);
+}
+
+/* Delete Button */
+.delete-btn {
+  background-color: #ff4b4b;
+  color: white;
+  margin-left: 10px;
+}
+
+.delete-btn:hover {
+  background: linear-gradient(to right, #ff6b6b, #ff3b3b);
+  transform: scale(1.08);
+}
+
+/* SMS Button */
+.sms-btn {
+  background-color: #34c759; 
+  color: white;
+  margin-left: 10px;
+}
+
+.sms-btn:hover {
+  background: linear-gradient(to right, #45d76b, #28a745);
+  transform: scale(1.08);
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  .student-card {
+    width: 90%;
+    padding: 18px 20px;
+  }
+
+  input {
+    width: 80px;
+  }
+
+  .student-details h3 {
+    font-size: 1.1rem;
+  }
+
+  .student-details p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  input {
+    width: 70px;
+  }
+
+  .edit-btn, .delete-btn, .sms-btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
